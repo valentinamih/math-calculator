@@ -1,0 +1,125 @@
+#calculator {
+    width: 50px; 
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90%;
+}
+
+#num1, #num2, #num3, #num4, #num5, #num6 {
+    width: 130px;
+}
+
+#header {
+    font-family: "MV BOLI", Georgia, Serif;
+    font-size: 39px;
+    border-bottom: 5px solid transparent;
+    border-image: linear-gradient(to left, transparent 0%, crimson);
+    border-image-slice: 1;
+}
+
+
+h3 {
+    font-family: "MV BOLI", Georgia, Serif;
+}
+
+#quadraticE, #isPythagoreanTriple, #findAllDivisors,
+ #findCommonDivisors, #findTheBiggestDivisor, #findSmallestCommonMultiple {
+    position: relative;
+    display: inline-block;
+    color: #777674;
+    font-weight: bold;
+    padding: 1em 2em;
+    outline: none;
+    border-radius: 3px / 100%;
+    box-shadow: rgba(230, 114, 7, 0.904) 3px 10px 10px -10px;
+    background: pink;
+  }
+
+  a.button9:hover {
+    transition: .5s linear;
+    background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+  }
+  a.button9:active {
+    top: 1px;
+  }
+
+
+
+*{box-sizing:border-box}
+.tabs {
+  width: 800px;
+  padding: 0px;
+  margin: 0 auto;
+  position: relative;
+  border: 1px solid #DEE8F2;
+  background: rgb(250,128,114,0.5);
+}
+
+section {
+    display: none;
+    width: 620px;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 180px;
+}
+
+p {
+    margin: 0;
+}
+
+#tab1, #tab2, #tab3, #tab4, #tab5, #tab6 {
+    display: none;
+}
+
+label {
+    display: block;
+    width: 180px;
+    padding: 15px;
+    color: sandybrown;
+    background:rgba(129, 89, 194, 0.925);
+    cursor: pointer;
+    border-right: 3px dotted rgb(221, 67, 98) ;
+    
+}
+
+input:checked + label {
+    color: #555;
+    background: white;
+  }
+
+#tab1:checked ~ #content1, #tab2:checked ~ #content2, #tab3:checked ~ #content3, 
+#tab4:checked ~ #content4, #tab5:checked ~ #content5, #tab6:checked ~ #content6 {
+    display: block;
+}
+
+section {
+    animation: scale 0.7s ease-in-out;
+  }
+
+  @keyframes scale {
+    0% {
+    transform: scale(0.9);
+    opacity: 0;
+    }
+    50% {
+    transform: scale(1.005);
+    opacity: 0.5;
+    }
+    100% {
+    transform: scale(1);
+    opacity: 1;
+    }
+  }
+
+  footer {
+      font-family: "MV BOLI", Georgia, Serif;
+      font-size: 13px;
+      position: relative;
+      background-color: plum;
+      margin: 0 auto;
+      width: 800px;
+      text-align: center;
+  }
