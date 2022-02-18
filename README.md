@@ -1,2 +1,2 @@
 # math-calculator
-https://valushkalove.github.io/math-calculator/
+https://valentinamih.github.io/rsschool-cv/
